@@ -28,6 +28,7 @@
 
 .container{
 	width:45%;
+    min-height: 48%;
     padding:1em;
     margin:0 auto;
 }
@@ -44,6 +45,19 @@
     background: green;
 }
 
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+}
+
 ul {
     display: inline-block;
     *display: inline;
@@ -54,10 +68,15 @@ ul {
     box-sizing: border-box;
 }
 
-div{
-    margin:0;
+div *{
+  margin:0;
 }
 
-body {
-    margin: 0;    
-} 
+a {
+  margin:0;
+  padding:0;
+}
+
+footer{
+  border:solid;
+}
